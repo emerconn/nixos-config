@@ -71,6 +71,18 @@
 
   programs.zsh = {
     enable = true;
+    history.size = 10000;
+    enableCompletion = true;
+    autosuggestion.enable = true;
+    syntaxHighlighting.enable = true;
+
+    oh-my-zsh = {
+      enable = true;
+      plugins = [
+        "git"
+      ];
+    };
+
     plugins = [
       {
         name = "zsh-powerlevel10k";
