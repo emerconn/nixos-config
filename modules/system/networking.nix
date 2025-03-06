@@ -15,8 +15,8 @@
   # Firewall rules
   networking.firewall = {
     enable = true;
-    allowedTCPPorts = [ 27015 27036 27037 ];  # Common Steam ports
-    allowedUDPPorts = [ 27015 27031 27036 ];  # Common Steam ports
+    # allowedTCPPorts = [ ##### ];
+    # allowedUDPPorts = [ ##### ];
   };
 
   # Enable the OpenSSH daemon.
