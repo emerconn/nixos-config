@@ -80,6 +80,7 @@
       enable = true;
       plugins = [
         "git"
+        "ssh-agent"
       ];
     };
 
