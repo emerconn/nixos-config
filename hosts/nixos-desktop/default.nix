@@ -56,16 +56,7 @@
     extraGroups = [ "networkmanager" "wheel" ];
     shell = pkgs.zsh;
     packages = with pkgs; [
-      discord
-      fluxcd
-      google-chrome
-      kubectl
-      lutris
-      mangohud
-      protonup-qt
-      spotify
-      talosctl
-      vim
+      # use Home Manager
     ];
   };
 

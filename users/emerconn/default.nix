@@ -5,6 +5,8 @@
   home.username = "emerconn";
   home.homeDirectory = "/home/emerconn";
 
+  nixpkgs.config.allowUnfree = true;
+
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -15,8 +17,21 @@
   home.stateVersion = "24.11"; # Please read the comment before changing.
 
   home.packages = with pkgs; [
-    zsh-powerlevel10k
+    tree
     meslo-lgs-nf
+    zsh-powerlevel10k
+    discord
+    fluxcd
+    google-chrome
+    kubectl
+    lutris
+    mangohud
+    protonup-qt
+    spotify
+    talosctl
+    vim
+    r2modman
+    vlc
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
